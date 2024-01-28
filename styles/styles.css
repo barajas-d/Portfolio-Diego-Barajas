@@ -1,0 +1,25 @@
+.photo {
+    width: 300px; /* Ancho del círculo */
+    height: 300px; /* Altura del círculo */
+    border-radius: 50%; /* Hace que el div sea un círculo */
+    overflow: hidden; /* Oculta cualquier parte de la imagen que se extienda fuera del círculo */
+}
+
+.photo img {
+    width: 100%; /* Ajusta el tamaño de la imagen para que se ajuste al círculo */
+    height: auto; /* Permite que la altura se ajuste automáticamente para mantener la proporción */
+    display: block; /* Evita espacios vacíos debajo de la imagen */
+}
+
+.container{
+    background-color: blue;
+    padding-top: 200px;
+}
+
+h1{
+    padding-bottom: 50px;
+}
+
+.col{
+    background-color: red;
+}
