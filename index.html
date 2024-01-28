@@ -8,25 +8,30 @@
     <!-- Navigation Bar -->
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#">Navbar</a>
+          <a class="navbar-brand" href="#">Diego Barajas</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                <a class="nav-link active" aria-current="page" href="#">Sobre mi</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Features</a>
+                <a class="nav-link" href="#">Proyectos</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Pricing</a>
+                <a class="nav-link" href="#">Habilidades</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                <a class="nav-link" href="#">Contactame</a>
               </li>
             </ul>
+
+            <span class="nav-item">
+              <a class="nav-link" href="#">Contactame</a>
+            </span>
+
             </div>
         </div>
     </nav>
@@ -35,15 +40,20 @@
     <!-- About me -->
     <h2>Sobre mi</h2>
 
-    <div class="container text-center">
-      <div class="row g-4 bg-secondary">
+    <div class="container">
+      <div class="row g-4">
         <div class="col">
           <!-- Project 1 -->
-          <div class="p-5 m-1 bg-primary">Foto</div>
+          <div class="p-5 m-1">Foto</div>
         </div>
         <div class="col">
           <!-- Project 2 -->
-          <div class="p-5 m-1 bg-primary">lorem ipsum</div>
+          <div class="p-5 m-1">Ingeniero de sistemas con énfasis en ”desarrollo de software” y ”redes y sistemas distribuidos”
+            graduado de la Universidad Javeriana. Tengo experiencia trabajando con lenguajes de programación como Java, JavaScript, Python y PL/SQL.
+            He trabajado en la construcción de servicios REST y SOAP, manejo frameworks como Spring, Hibernate y JSF. Además de estar
+            familiarizado con herramientas como Git, Github, Jenkins y SonarQube. Me destaco por mi alta capacidad de autoaprendizaje
+            y habilidades para analizar y resolver problemas de diversa índole. Soy una persona proactiva. También poseo buenas
+            habilidades de comunicación y gestión.</div>
         </div>
       </div>
     </div>
@@ -57,12 +67,15 @@
         <div class="col">
 
           <!-- Project 1 card-->
-          <div class="card" style="width: 20rem;">
+          <div class="card p-3 m-1" style="width: 35rem;">
             <img src="..." class="card-img-top" alt="...">
             <div class="card-body">
-              <h5 class="card-title">Proyecto 1</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
+              <h5 class="card-title">IPS System</h5>
+              <p class="card-text">Aplicación para generar citas médicas. El sistema permite el registro y la administración de doctores, hospitales, clientes
+                y pacientes. También genera automáticamente los horarios óptimos para los doctores dependiendo de su horario laboral
+                y las citas de los pacientes registrados</p>
+              <a href="#" class="btn btn-primary">Back</a>
+              <a href="#" class="btn btn-primary">Front</a>
             </div>
           </div>
           <!-- End Project 1 card -->
@@ -70,27 +83,16 @@
         </div>
         <div class="col">
 
-          <!-- Project 2 card-->
-          <div class="card" style="width: 20rem;">
-            <img src="..." class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Proyecto 1</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
-            </div>
-          </div>
-          <!-- End Project 2 card -->
-
-        </div>
-        <div class="col">
-
           <!-- Project 3 card-->
-          <div class="card" style="width: 20rem;">
+          <div class="card p-3 m-1" style="width: 35rem;">
             <img src="..." class="card-img-top" alt="...">
             <div class="card-body">
-              <h5 class="card-title">Proyecto 1</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
+              <h5 class="card-title">Pocket Ballot Chain</h5>
+              <p class="card-text">Prototipo de sistema de votación electrónico basado en blockchain que permite el registro anónimo de votos con un
+                base de información inmutable. Ganó premio como trabajo de grado laureado por la Universidad Javeriana de Bogotá,
+                Colombia.</p>
+              <a href="#" class="btn btn-primary">Back</a>
+              <a href="#" class="btn btn-primary">Front</a>
             </div>
           </div>
           <!-- End Project 3 card -->
@@ -102,19 +104,27 @@
 
     <!-- Main skills -->
     <h2>Habilidades principales</h2>
-    <div class="container px-4 text-center">
+    <div class="container px-2 text-center">
       <div class="row gx-5">
         <div class="col">
-          <!-- Project 1 -->
-          <div class="p-3 m-1 bg-primary">IMG Spring</div>
+          <!-- Skill 1 -->
+          <img src="./resources/spring.svg" class="" alt="Spring framework">
         </div>
         <div class="col">
-          <!-- Project 2 -->
-          <div class="p-3 m-1 bg-primary">IMG Java</div>
+          <!-- Skill 2 -->
+          <img src="./resources/java.svg" class="" alt="Java / JavaEE">
         </div>
         <div class="col">
-          <!-- Project 2 -->
-          <div class="p-3 m-1 bg-primary">IMG pl/sql</div>
+          <!-- Skill 3 -->
+          <img src="./resources/oracle-pl-sql.svg" class="" alt="Oracle Pl/SQL">
+        </div>
+        <div class="col">
+          <!-- Skill 4 -->
+          <img src="./resources/python.svg" class="" alt="Python">
+        </div>
+        <div class="col">
+          <!-- Skill 5 -->
+          <img src="./resources/angular.svg" class="" alt="Angular">
         </div>
       </div>
     </div>
