@@ -23,3 +23,11 @@
     height: 100%;
     display: block;
 }
+
+.title{
+    padding-bottom: 5rem;
+}
+
+a {
+    text-decoration: none;
+}

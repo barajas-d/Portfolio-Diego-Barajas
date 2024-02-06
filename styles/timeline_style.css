@@ -2859,6 +2859,7 @@ textarea.form-control-lg {
   --bs-btn-disabled-color: #fff;
   --bs-btn-disabled-bg: #ffc800;
   --bs-btn-disabled-border-color: #ffc800;
+  color: black;
 }
 
 .btn-secondary {
@@ -2979,6 +2980,7 @@ textarea.form-control-lg {
   --bs-btn-disabled-bg: #212529;
   --bs-btn-disabled-border-color: #212529;
 }
+
 
 .btn-outline-primary {
   --bs-btn-color: #ffc800;
