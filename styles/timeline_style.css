@@ -8267,6 +8267,7 @@ textarea.form-control-lg {
 
 .rounded-circle {
   border-radius: 50% !important;
+  border-color: var(--bs-link-hover-color) !important;
 }
 
 .rounded-pill {
