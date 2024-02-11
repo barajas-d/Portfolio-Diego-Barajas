@@ -90,3 +90,20 @@ function updateToastEmail(counter){
 async function waitForOneSecond() {
     await new Promise(resolve => setTimeout(resolve, 1000)); // 1000 milliseconds
 }
+
+
+function downloadCV(){
+    var pdfUrl = './resources/CV_DiegoBarajas.pdf';
+
+    // Create a temporary link element
+    var link = document.createElement('a');
+    link.href = pdfUrl;
+    link.target = "_blank" //open in new tab
+
+    // Append the link to the document body and click it
+    document.body.appendChild(link);
+    link.click();
+
+    // Remove the temporary link
+    document.body.removeChild(link);
+}

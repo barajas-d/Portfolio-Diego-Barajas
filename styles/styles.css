@@ -47,3 +47,13 @@ a {
 .toastEmail{
     margin-top: 5rem;
 }
+
+.top-name{
+    font-family: "Montserrat"
+}
+
+
+.skill-image{
+    height: 100px;
+    width: auto;
+}
