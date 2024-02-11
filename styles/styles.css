@@ -31,3 +31,19 @@
 a {
     text-decoration: none;
 }
+
+.technology-item{
+    display:inline-block;
+    border-radius: 5px;
+    border: black 5px solid;
+    border-width: 2px;
+    padding: 0px 10px 0px 10px;
+}
+
+.technologys{
+    margin-bottom: 1rem;
+}
+
+.toastEmail{
+    margin-top: 5rem;
+}
